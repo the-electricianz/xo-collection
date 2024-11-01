@@ -18,7 +18,7 @@
             <p class="sub-headline hero-sub-headline">Discover the XO Collection by The Electricianz</p>
             <hr>
             <h2 class="announcement hero-announcement">Launching on Kickstarter on November 15th, 2024</h2>
-            <button class="btn hero-btn"><a href="https://www.kickstarter.com/projects/hybride/introducing-the-new-elz-xo-collection" target="_blank">Join the Waiting List and Get Notified</a></button>
+            <button class="btn hero-btn klaviyo_form_trigger"><a href="#" target="_self">Join the Waiting List and Get Notified</a></button>
         </div>
 
         <div class="container cosmic-journey-container">
@@ -107,7 +107,7 @@
             </div>
             <img class="triangle" src="images/triangle.png" alt="">
             <h3 class="final-headline">Be part of our journey and own a piece of the universe.</h3>
-            <button class="cta-btn final-cta"><a href="https://www.kickstarter.com/projects/hybride/introducing-the-new-elz-xo-collection" target="_blank">Join the Waiting List</a></button>
+            <button class="cta-btn final-cta klaviyo_form_trigger"><a href="#" target="_self">Join the Waiting List</a></button>
             <button class="cta-btn final-cta"><a href="https://www.kickstarter.com/profile/hybride" target="_blank">Follow Us On Kickstarter</a></button>
         </div>
 
@@ -135,6 +135,12 @@
     </main>
 
     <script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VsPiGd'></script>
-    
+    <script type="text/javascript">
+        document.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){
+            window._klOnsite = window._klOnsite || []; 
+            window._klOnsite.push(['openForm', 'ReHf3b']);
+        });
+    </script>
+
 </body>
 </html>
