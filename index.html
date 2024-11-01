@@ -107,7 +107,7 @@
             </div>
             <img class="triangle" src="images/triangle.png" alt="">
             <h3 class="final-headline">Be part of our journey and own a piece of the universe.</h3>
-            <button class="cta-btn final-cta klaviyo_form_trigger"><a href="#" target="_self">Join the Waiting List</a></button>
+            <button class="cta-btn final-cta form_trigger"><a href="#" target="_self">Join the Waiting List</a></button>
             <button class="cta-btn final-cta"><a href="https://www.kickstarter.com/profile/hybride" target="_blank">Follow Us On Kickstarter</a></button>
         </div>
 
@@ -141,6 +141,13 @@
             window._klOnsite.push(['openForm', 'ReHf3b']);
         });
     </script>
+
+    <script type="text/javascript">
+    document.querySelector('.form_trigger').addEventListener('click', function (){
+        window._klOnsite = window._klOnsite || []; 
+        window._klOnsite.push(['openForm', 'ReHf3b']);
+    });
+</script>
 
 </body>
 </html>
