@@ -568,6 +568,10 @@ footer .bottom-section {
         --standard-width: 900px;
         --spacing-sm: 1px;
         --spacing-md: 3px;
+        --brace-height: 320px;
+        --preview-height: 290px;
+        --cross-height: 40px;
+        --yt-height: 450px;
     }
 
     .hero-container hr {
@@ -613,10 +617,10 @@ footer .bottom-section {
             --spacing-md: 2px;
             --spacing-img: 8px;
 
-            --brace-height: 350px;
-            --preview-height: 310px;
+            --brace-height: 300px;
+            --preview-height: 270px;
             --cross-height: 40px;
-            --yt-height: 450px;
+            --yt-height: 440px;
         }
     
 
@@ -646,9 +650,11 @@ footer .bottom-section {
         --p-size: 18px;
         --a-size: 18px;
         --i-size: 22px;
-        --brace-height: 300px;
-        --preview-height: 260px;
-        --cross-height: 20px;
+
+        
+        --brace-height: 260px;
+        --preview-height: 230px;
+        --cross-height: 30px;
         --yt-height: 400px;
     }
 
@@ -725,10 +731,11 @@ footer .bottom-section {
         --text-size: 20px;
         --sub-text-size: 16px;
         --p-size: 14px;
-        --a-size: 14px;
-        --brace-height: 250px;
-        --preview-height: 210px;
-        --cross-height: 20px;
+        --a-size: 16px;
+        --brace-height: 210px;
+        --preview-height: 190px;
+        --cross-height: 30px;
+        --yt-height: 310px;
     }
 
     .timepieces-container .description {
@@ -778,9 +785,9 @@ footer .bottom-section {
         --sub-text-size: 14px;
         --p-size: 14px;
         --a-size: 14px;
-        --brace-height: 250px;
-        --preview-height: 210px;
-        --cross-height: 15px;
+        --brace-height: 165px;
+        --preview-height: 150px;
+        --cross-height: 25px;
         
     }
 
@@ -799,7 +806,8 @@ footer .bottom-section {
         --text-size: 12px;
         --sub-text-size: 10px;
         --p-size: 10px;
-        --a-size: 10px;
+        /* --a-size: 10px; */
+        --a-size: 14px;
     }
 
     .hero-container .hero-headline {
@@ -824,7 +832,8 @@ footer .bottom-section {
         --text-size: 10px;
         --sub-text-size: 8px;
         --p-size: 10px;
-        --a-size: 8px;
+        /* --a-size: 8px; */
+        --a-size: 12px;
         --yt-height: 250px;
         
     }
