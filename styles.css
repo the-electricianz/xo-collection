@@ -729,8 +729,8 @@ footer .bottom-section {
         --h2-size: 26px;
         --h3-size: 22px;
         --text-size: 20px;
-        --sub-text-size: 16px;
-        --p-size: 14px;
+        --sub-text-size: 14px;
+        --p-size: 16px;
         --a-size: 16px;
         --brace-height: 210px;
         --preview-height: 190px;
@@ -757,7 +757,7 @@ footer .bottom-section {
         --h2-size: 22px;
         --h3-size: 20px;
         --text-size: 18px;
-        --sub-text-size: 14px;
+        --sub-text-size: 13px;
         --p-size: 14px;
         --a-size: 14px;
     }
@@ -782,7 +782,7 @@ footer .bottom-section {
         --h2-size: 20px;
         --h3-size: 18px;
         --text-size: 16px;
-        --sub-text-size: 14px;
+        --sub-text-size: 13px;
         --p-size: 14px;
         --a-size: 14px;
         --brace-height: 165px;
@@ -796,6 +796,10 @@ footer .bottom-section {
         margin-top: -250px;
     }
 
+    .hero-container .sub-headline {
+        width: 98%;
+    }
+
 }
 
 @media only screen and (max-width: 513px) {
@@ -804,8 +808,8 @@ footer .bottom-section {
         --h2-size: 16px;
         --h3-size: 14px;
         --text-size: 12px;
-        --sub-text-size: 10px;
-        --p-size: 10px;
+        --sub-text-size: 12px;
+        --p-size: 13px;
         /* --a-size: 10px; */
         --a-size: 14px;
     }
@@ -814,6 +818,7 @@ footer .bottom-section {
         width: 50%;
         margin-top: -230px;
     }
+
 
     .hero-container .hero-btn {
         height: 40px;
@@ -824,13 +829,13 @@ footer .bottom-section {
     }
 }
 
-@media only screen and (max-width: 463px) {
+@media only screen and (max-width: 466px) {
     :root {
         --h1-size: 16px;
         --h2-size: 14px;
         --h3-size: 12px;
         --text-size: 10px;
-        --sub-text-size: 8px;
+        --sub-text-size: 9.5px;
         --p-size: 10px;
         /* --a-size: 8px; */
         --a-size: 12px;
@@ -842,6 +847,7 @@ footer .bottom-section {
         width: 50%;
         margin-top: -200px;
     }
+
 
     .hero-container hr {
         margin: 20px 0;
@@ -895,18 +901,18 @@ footer .bottom-section {
         margin-top: -180px;
     }
 
-    .hero-container .sub-headline {
-        width: 98%;
-    }
-
     .hero-container .announcement {
         width: 90%;
     }
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 368px) {
     .hero-container .hero-headline {
         width: 60%;
         margin-top: -150px;
+    }
+
+    .hero-container .sub-headline {
+        letter-spacing: 0;
     }
 }
